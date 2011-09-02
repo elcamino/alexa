@@ -4,6 +4,7 @@ module Alexa
   require 'uri'
   require 'base64'
   require 'openssl'
+  require 'rest-client'
 
   require 'alexa/config'
   require 'alexa/url_info'

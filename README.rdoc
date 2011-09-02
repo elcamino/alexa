@@ -11,6 +11,23 @@ Use RubyGems to install the library:
 
   $ gem install elcamino-alexa
 
+Provide your API Credentials:
+
+  require 'alexa'
+
+  Alexa.config do |c|
+    c.access_key_id = YOUR_API_ACCESS_KEY
+    c.secret_access_key = YOUR_SECRET_ACCESS_KEY
+  end
+
+  ui = Alexa::UrlInfo.new
+  data = ui.fetch('Url' => 'apple.com')
+
+  li = Alexa::SitesLinkingIn.new
+  data = ui.fetch('Url' => 'apple.com')
+
+  th = Alexa::TrafficHistory.new
+  data = th.fetch('Url' => 'apple.com')
 
 
 == Contributing to alexa
