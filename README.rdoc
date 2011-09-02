@@ -1,6 +1,17 @@
-= alexa
+= elcamino-alexa
 
-Description goes here.
+A ruby library for the Amazon Alexa web API.
+
+Currently, the methods url_info, traffic_history and sites_linking_in are
+implemented.
+
+== Hello World
+
+Use RubyGems to install the library:
+
+  $ gem install elcamino-alexa
+
+
 
 == Contributing to alexa
  
