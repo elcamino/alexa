@@ -18,7 +18,7 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/elcamino/alexa"
   gem.license = "MIT"
   gem.summary = %Q{Alexa Web API ruby library}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.description = %Q{Ruby library for the Amazon Alexa web API}
   gem.email = "elcamino@spyz.org"
   gem.authors = ["Tobias Begalke"]
   # dependencies defined in Gemfile

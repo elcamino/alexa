@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Tobias Begalke"]
   s.date = %q{2011-09-02}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{Ruby library for the Amazon Alexa web API}
   s.email = %q{elcamino@spyz.org}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -23,7 +23,22 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "alexa.gemspec",
     "lib/alexa.rb",
+    "lib/alexa/config.rb",
+    "lib/alexa/container.rb",
+    "lib/alexa/sites_linking_in.rb",
+    "lib/alexa/sites_linking_in/site.rb",
+    "lib/alexa/traffic_history.rb",
+    "lib/alexa/traffic_history/historical_data.rb",
+    "lib/alexa/url_info.rb",
+    "lib/alexa/url_info/categories.rb",
+    "lib/alexa/url_info/contact_info.rb",
+    "lib/alexa/url_info/content_data.rb",
+    "lib/alexa/url_info/contributing_subdomains.rb",
+    "lib/alexa/url_info/related.rb",
+    "lib/alexa/url_info/traffic_data.rb",
+    "lib/alexa/url_info/usage.rb",
     "test/helper.rb",
     "test/test_alexa.rb"
   ]
