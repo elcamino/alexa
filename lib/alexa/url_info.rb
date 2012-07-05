@@ -99,6 +99,7 @@ module Alexa
         'content_data'            => ContentData.to_mongo(value.content_data),
         'related'                 => Related.to_mongo(value.related),
         'categories'              => Categories.to_mongo(value.categories),
+        'traffic_data'            => TrafficData.to_mongo(value.traffic_data),
         'usage'                   => Usage.to_mongo(value.usage),
         'contributing_subdomains' => ContributingSubdomains.to_mongo(value.contributing_subdomains),
       }
